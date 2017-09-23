@@ -1,23 +1,20 @@
 +++
 # Selected Publications widget.
-# This widget displays publications from `content/publication/` which have
-# `selected = true` in their `+++` front matter.
+# Note: this widget will only display if `content/publication/` contains publications
+# with `selected = true` in their `+++` preamble.
 
-date = 2016-04-20
+date = "2016-04-20T00:00:00"
 draft = false
 
-title = "Selected Publications"
+title = "Publications choisies"
 subtitle = ""
 widget = "publications_selected"
 
 # Order that this section will appear in.
 weight = 10
 
-# List format.
-#   0 = Simple
-#   1 = Classic
-#   2 = Detailed
-list_format = 2
+# Show publication details (such as abstract)? (true/false)
+detailed_list = true
 
 +++
 

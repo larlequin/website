@@ -5,7 +5,7 @@
 date = "2016-04-20T00:00:00"
 draft = false
 
-title = "Teaching"
+title = "Enseignements"
 subtitle = ""
 widget = "custom"
 
@@ -14,14 +14,16 @@ weight = 60
 
 +++
 
-This is an example of using the *custom* widget to create your own homepage section.
+## Neurosciences
 
-I am a teaching instructor for the following courses at University X:
+- **TP neurobiologie du comportement**, neuro-anatomie et électrocardiologie, Licence 3 (L3S5)
+- **CM neurosciences**, la mémoire des molécules au vieillissement, Master 1 (M1S2)
 
-- CS101: An intro to computer science
-- CS102: An intro to computer science
-- CS103: An intro to computer science
-- CS104: An intro to computer science
-- CS105: An intro to computer science
-- CS106: An intro to computer science
-- CS107: An intro to computer science
+## Méthode scientifique
+
+- **Méthodologie scientifique**, plan expérimentaux, contrôle des variables, Licence 3 (L3S5)
+- **Travail d’étude de recherche**, travail intégré et initiation à la recherche, Licence 3 (L3S6)
+
+## Statistiques
+
+- **Statistiques appliquées à la psychologie**, corrélation et probabilités, Licence 1 (L1S2)
