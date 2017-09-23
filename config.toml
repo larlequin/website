@@ -1,6 +1,6 @@
 baseurl = "https://larlequin.github.io/" 
-title = "Academic"
-copyright = "&copy; 2016 Your Name"
+title = "Guillaume T. Vallet"
+copyright = "&copy; 2017 Guillaume Vallet"
 theme = "academic"
 enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"
@@ -12,24 +12,23 @@ disqusShortname = ""
 googleAnalytics = ""
 
 # Default language to use (if you setup multilingual support)
-defaultContentLanguage = "en"
+defaultContentLanguage = "fr"
 defaultContentLanguageInSubdir = false
 
 [blackfriday]
   hrefTargetBlank = true
 
 [params]
-  name = "Lena Smith"
-  role = "Professor of Artificial Intelligence"
-  organization = "Stanford University"
-  organization_url = ""
-  gravatar = false  # Get your avatar from Gravatar.com? (true/false)
-  avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
-  email = "test@example.org"
-  address = "Building 1 Room 1, Stanford University, California, 90210, USA"
-  office_hours = "Monday 10:00 to 13:00 or email for appointment"
-  phone = "888 888 88 88"
-  skype = "echo123"
+  name = "Guillaume T Vallet"
+  role = "Maître de conférences"
+  organization = "LAPSCO (CNRS UMR 6024), Université Clermont Auvergne"
+  organization_url = "http://lapsco.fr/"
+  avatar = "gvallet.jpg"
+  email = "guillaume.vallet@uca.fr"
+  address = "Bureau 416, 34 avenue Carnot, 63037 Clermont-Ferrand (France)"
+  office_hours = "Prise de rendez-vous uniquement par courriel"
+  phone = "+33 (04) 73 40 64 76"
+  skype = "gtvallet"
   telegram = ""
 
   # Enable Keybase in Contact section by entering your keybase.io username.
