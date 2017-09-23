@@ -123,24 +123,34 @@ defaultContentLanguageInSubdir = false
   #   Full list: https://jpswalsh.github.io/academicons/
 
   [[params.social]]
-    icon = "envelope"
+    icon = "laptop"
     icon_pack = "fa"
-    link = "mailto:test@example.org"
+    link = "http://www.cogitos.net"
 
   [[params.social]]
-    icon = "twitter"
+    icon = "envelope-o"
     icon_pack = "fa"
-    link = "//twitter.com/GeorgeCushen"
+    link = "mailto:guillaume.vallet@uca.fr"
+
+  [[params.social]]
+    icon = "researchgate"
+    icon_pack = "ai"
+    link = "https://www.researchgate.net/profile/Guillaume_Vallet"
 
   [[params.social]]
     icon = "google-scholar"
     icon_pack = "ai"
-    link = "https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ"
+    link = "https://scholar.google.ca/citations?user=gfKFo3MAAAAJ&hl=fr"
+
+  [[params.social]]
+    icon = "figshare"
+    icon_pack = "ai"
+    link = "https://figshare.com/authors/Guillaume_T_Vallet/541420"
 
   [[params.social]]
     icon = "github"
     icon_pack = "fa"
-    link = "//github.com/gcushen"
+    link = "//github.com/larlequin"
 
 
 # Navigation Links
@@ -149,33 +159,37 @@ defaultContentLanguageInSubdir = false
 #   The weight parameter defines the order that the links will appear in.
 
 [[menu.main]]
-  name = "Home"
+  name = "Accueil"
   url = "#about"
+  pre = "<i class='fa fa-home'></i>"
   weight = 1
 
 [[menu.main]]
   name = "Publications"
-  url = "#publications_selected"
+  url = "publication/#"
+  pre = "<i class='fa fa-book'></i>"
   weight = 2
 
-[[menu.main]]
-  name = "Posts"
-  url = "#posts"
-  weight = 3
+#[[menu.main]]
+#  name = "Posts"
+#  url = "#posts"
+#  weight = 3
+
+#[[menu.main]]
+#  name = "Projects"
+#  url = "#projects"
+#  weight = 4
 
 [[menu.main]]
-  name = "Projects"
-  url = "#projects"
-  weight = 4
-
-[[menu.main]]
-  name = "Teaching"
+  name = "Enseignement"
   url = "#teaching"
+  pre = "<i class='fa fa-users'></i>"
   weight = 5
 
 [[menu.main]]
   name = "Contact"
   url = "#contact"
+  pre = "<i class='fa fa-vcard'></i>"
   weight = 6
 
 # Taxonomies.
@@ -183,10 +197,49 @@ defaultContentLanguageInSubdir = false
   tag = "tags"
   category = "categories"
   publication_type = "publication_types"
+  field = "fields"
+  keyword = "keywords"
 
 # Languages
+
+[[languages.en.menu.main]]
+  url    = "/"
+  name   = "Home"
+  pre = "<i class='fa fa-home'></i>"
+  weight = 1
+
+[[languages.en.menu.main]]
+  name = "Publications"
+  url = "publication/#"
+  pre = "<i class='fa fa-book'></i>"
+  weight = 2
+
+[[languages.en.menu.main]]
+  name = "Teaching"
+  url = "#teaching"
+  pre = "<i class='fa fa-users'></i>"
+  weight = 5
+
+[[languages.en.menu.main]]
+  name = "Contact"
+  url = "#contact"
+  pre = "<i class='fa fa-vcard'></i>"
+  weight = 6
+
 #   Create a [languages.X] block for each language you want, where X is the language ID.
 
 # Configure the English version of the website.
 [languages.en]
   languageCode = "en-us"
+
+[languages.fr]
+  languageCode = "fr-fr"
+  publication_types = [
+    'Inconnus',  # 0
+    'Proceedings',  # 1
+    'Journal',  # 2
+    'Travail en cours',  # 3
+    'Rapport technique',  # 4
+    'Livre',  # 5
+    'Chapitre de livre'  # 6
+  ]
